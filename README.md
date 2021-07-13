@@ -1,1 +1,1 @@
-# HSOConnect
+# HSO Connect
