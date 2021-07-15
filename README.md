@@ -1,2 +1,2 @@
 # HSOConnect
-This is the HSO connect website 
+HSO connect website 
