@@ -13,7 +13,7 @@ html:
 repository:
   url: "https://github.com/AmrAlshatnawi/HSOConnect"
   branch: master
-  path_to_book: site
+  path_to_book: css
 
 latex:
   latex_engine              : xelatex
