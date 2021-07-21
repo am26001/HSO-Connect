@@ -1,11 +1,11 @@
 title: 'Heliophysics System Observatory'
-author: Barbara J Thompson and Amr Alshatnawi 
+author: Amr Alshatnawi and Barbara J Thompson 
 
 logo: ../css/logo.png
 
 html: 
   favicon: logo.png
-  home_page_in_navbar : true
+  home_page_in_navbar : false
   use_edit_page_button: true
   use_repository_button: true
   use_issues_button: true
@@ -13,7 +13,7 @@ html:
 repository:
   url: "https://github.com/AmrAlshatnawi/HSOConnect"
   branch: master
-  path_to_book: css
+  path_to_book: book
 
 latex:
   latex_engine              : xelatex
@@ -22,12 +22,12 @@ execute:
   execute_notebooks         : off
 
 launch_buttons:
-  binder             : true
-  binderhub          : true
+  binder             : false
+  binderhub          : false
   binderhub_url      : off
-  jupyterhub         : true
-  thebe              : true
-  colab              : true
+  jupyterhub         : false
+  thebe              : false
+  colab              : false
 
 sphinx:
   config:
