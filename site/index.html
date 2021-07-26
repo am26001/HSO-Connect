@@ -257,7 +257,52 @@
       
   <div id="main-content" class="row">
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
-          <div>  
+          <div>
+            
+            
+            
+      <style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+</style>
+            
+            
    
   <div class="section" id="Heliophysics System Observatory">
 <h1>Heliophysics System Observatory <a class="headerlink" href="#Heliophysics System Observatory" title="Permalink to this headline">¶</a></h1>
@@ -265,14 +310,18 @@
 <p>Contributions by ------</p>
     <p> This is the HSO Connect github site.</p>
     <p> This site will have different  data models, tools and services, and examples using jupyter notebook that will help us connect observations from different Heliophysics System Observatory missions with other observations from different Science Mission Directorate missions.</p>
-    <p>This site is still under development, more things will be added.</p> 
-    <img src="../css/images/hso.jpg" alt="HSO" align="left" style="width:400px;height:500px;">
-    
-    
-    
-    
-    
+    <p>This site is still under development, more things will be added.</p>   
             </div>
+  <div class="container">
+  <img src="../css/images/hso.jpg" alt="HSO" align="left" style="width:400px;height:500px;">
+  <div class="overlay">
+    <div class="text">Heliophysics System Observatory</div>
+  </div>
+</div>
+    
+    
+    
+
       
 
     <script type="text/x-thebe-config">
