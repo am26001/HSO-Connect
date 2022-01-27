@@ -11,7 +11,7 @@ html:
   use_issues_button: true
 
 repository:
-  url: "https://github.com/AmrAlshatnawi/HSOConnect"
+  url: "https://github.com/HSOConnect/HSO-Connect"
   branch: master
   path_to_book: book
 
